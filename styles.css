@@ -78,7 +78,6 @@ div {
     grid-column-gap: 40px;
     margin-top: 70px;
     margin-bottom: 80px;
-    align: center;
 }
 
 .navigation {
@@ -123,13 +122,14 @@ div {
 
 .hey {
     font-weight: 1000;
-    padding: 10px;
+    padding: 0px;
+    margin-bottom: 25px;
 }
 
 p {
     font-weight: 300;
-    padding: 15px;
-    padding-top: 20px;
+    padding: 0px;
+    padding-top: 0px;
 }
 
 .social-div {
@@ -159,4 +159,93 @@ img {
     position: relative;
     max-width: 100%;
     display: inline-block;
+}
+
+.career-grid {
+    margin-bottom: 100px;
+    border: 0;
+    grid-template-areas: ".""." ;
+    grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+}
+
+.node1 {
+    font-size: 20px;
+    padding-top: 10px;
+    line-height: 2.5rem;
+}
+.node2 {
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 50px;
+    line-height: 2rem;
+}
+.service-name-text {
+    font-size: 16px;
+    line-height: 42px;
+    text-align: left;
+}
+.service-name-text {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid #ced1df;
+    border-radius: 8px;
+    background-color: #eeeff1;
+    background-image: none;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    opacity: 1;
+    color: #000;
+    font-size: 16px;
+    line-height: 39px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.div-block10 {
+    text-align: left;
+    padding: 0;
+}
+.services-items-grid {
+    padding-top: 0;
+    -webkit-box-pack: start;
+    -webkit-justify-content: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    justify-items: start;
+    -webkit-align-content: start;
+    -ms-flex-line-pack: start;
+    align-content: start;
+    grid-row-gap: 0px;
+    grid-template-areas: "."".";
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto 0px auto;
+    grid-template-rows: auto auto;
+}
+.btn-secondary:hover {
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+}
+.dropdown-toggle::after {
+    content: none;
+}
+.btn-secondary {
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+}
+.btn-check:focus+.btn-secondary, .btn-secondary:focus {
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: 0 0 0 .25remrgba(130,138,145,.5);
+}
+.dropdown-menu {
+    min-width: 7rem;
 }
